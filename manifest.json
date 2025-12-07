@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "images": {
+    "cutlass-3.6": {
+      "name": "CUTLASS 3.6 + CUDA 12.8",
+      "docker_image": "nvidia/cuda:12.8.0-cudnn-devel-ubuntu22.04 + cutlass-3.6.0",
+      "archive_url": "https://github.com/wafer-ai/wafer-headers/releases/download/headers-v1/cutlass-3.6.tar.gz",
+      "size_bytes": 3434070,
+      "sha256": "fbd5bdeea0f76486202db027ca28feabf869ceb9eac21d047a74bd2bd5ee9e9f",
+      "updated_at": "2025-12-07T14:08:00Z",
+      "include_paths": ["cuda", "cpp/include", "cutlass/include", "cute/include"]
+    }
+  }
+}
